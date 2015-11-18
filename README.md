@@ -7,3 +7,7 @@ After running across several job pages while searching for a front end developer
 ### Company info
 
 This company called Dialexa is located in Dallas in Deep Ellum. Seems like a cool place that works on very interesting projects!
+
+### Screenshot
+
+[original Dialexa job listing](/images/dialexa-job-listing-screenshot.png)
