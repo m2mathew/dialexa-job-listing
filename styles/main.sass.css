@@ -1,8 +1,45 @@
 body {
-  background-color: #E1E1E1; }
+  background-color: #E1E1E1;
+  font-family: "Helvetia Neue", sans-serif;
+  color: #4D4D4D; }
 
 main {
   background-color: #fff; }
 
-section, header {
-  border: 2px solid purple; }
+main, footer {
+  margin: 2.375em 3.125em; }
+
+section {
+  border-top: 2px solid #E1E1E1; }
+  section a {
+    color: #4D4D4D;
+    text-decoration: none; }
+
+header {
+  overflow: hidden; }
+
+.details h2 {
+  text-transform: uppercase; }
+
+.details .section-image img {
+  height: 18.75em;
+  width: 28em; }
+
+.apply {
+  padding: 2.375em 3.125em; }
+  .apply .btn {
+    width: 10.625em;
+    height: 2.75em;
+    color: #fff;
+    font-size: 1.25em;
+    font-weight: 500;
+    text-shadow: 0 -1px -1px rgba(0, 0, 0, 0.85);
+    background-color: #C22800;
+    padding: 1em; }
+
+footer a {
+  color: #4D4D4D; }
+
+@media screen and (min-width: 68.75em) {
+  main, footer {
+    max-width: 60.875em; } }
