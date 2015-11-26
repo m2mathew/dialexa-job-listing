@@ -2,7 +2,7 @@ body {
   background-color: #E1E1E1;
   font-family: "Helvetia Neue", Helvetica, Arial, sans-serif;
   color: #333;
-  padding: 2.5em 1.5em;
+  padding: 2.75em 1.5em;
   box-sizing: border-box;
   font-size: 0.8em;
   line-height: 1.5;
@@ -29,7 +29,9 @@ main {
       color: #4D4D4D;
       text-decoration: none; }
   main .title p {
-    color: #666666; }
+    color: #666666;
+    margin: 0;
+    margin-top: 0.5em; }
     main .title p .title-row {
       margin-bottom: 0; }
     main .title p .breadcrumbs {
@@ -37,7 +39,7 @@ main {
   main .title h1 {
     font-size: 1.8em;
     font-weight: 500;
-    margin-top: 0;
+    margin-top: 0.5em;
     margin-bottom: 0; }
   main .title .location {
     margin-top: 0;
