@@ -17,7 +17,7 @@ main {
 	margin-right: auto;
 
 	.header {
-		margin: 1em 2.375em;
+		padding: 1em 2.375em;
 		overflow: hidden;
 		box-sizing: border-box;
 
@@ -40,9 +40,26 @@ main {
 
 	.title {
 
-		.breadcrumbs {
-			color: #bb2600;
+		p {
+			color: #666666;
+
+			.breadcrumbs {
+				margin-bottom: 0;
+				color: #bb2600;
+			}
 		}
+
+		h1 {
+			font-size: 1.8em;
+			font-weight: 500;
+			margin-top: 0;
+			margin-bottom: 0;
+		}
+
+		.location {
+			margin-top: 0;
+		}
+
 	}
 
 	.details {

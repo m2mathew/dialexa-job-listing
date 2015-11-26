@@ -15,7 +15,7 @@ main {
   margin-left: auto;
   margin-right: auto; }
   main .header {
-    margin: 1em 2.375em;
+    padding: 1em 2.375em;
     overflow: hidden;
     box-sizing: border-box; }
     main .header img {
@@ -28,8 +28,18 @@ main {
     main section a {
       color: #4D4D4D;
       text-decoration: none; }
-  main .title .breadcrumbs {
-    color: #bb2600; }
+  main .title p {
+    color: #666666; }
+    main .title p .breadcrumbs {
+      margin-bottom: 0;
+      color: #bb2600; }
+  main .title h1 {
+    font-size: 1.8em;
+    font-weight: 500;
+    margin-top: 0;
+    margin-bottom: 0; }
+  main .title .location {
+    margin-top: 0; }
   main .details h2 {
     text-transform: uppercase; }
   main .details .section-image img {
