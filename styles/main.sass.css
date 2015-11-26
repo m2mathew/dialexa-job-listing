@@ -30,8 +30,9 @@ main {
       text-decoration: none; }
   main .title p {
     color: #666666; }
+    main .title p .title-row {
+      margin-bottom: 0; }
     main .title p .breadcrumbs {
-      margin-bottom: 0;
       color: #bb2600; }
   main .title h1 {
     font-size: 1.8em;
@@ -39,12 +40,18 @@ main {
     margin-top: 0;
     margin-bottom: 0; }
   main .title .location {
-    margin-top: 0; }
+    margin-top: 0;
+    margin-bottom: 0; }
   main .details h2 {
-    text-transform: uppercase; }
+    text-transform: uppercase;
+    font-size: 1em;
+    color: #4D4D4D; }
   main .details .section-image img {
     height: 18.75em;
-    width: 28em; }
+    width: 28em;
+    float: left;
+    margin-right: 0.75em;
+    margin-bottom: 0.75em; }
   main .apply {
     padding: 2.375em 3.125em; }
     main .apply .btn {

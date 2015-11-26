@@ -43,8 +43,11 @@ main {
 		p {
 			color: #666666;
 
-			.breadcrumbs {
+			.title-row {
 				margin-bottom: 0;
+			}
+
+			.breadcrumbs {
 				color: #bb2600;
 			}
 		}
@@ -58,6 +61,7 @@ main {
 
 		.location {
 			margin-top: 0;
+			margin-bottom: 0;
 		}
 
 	}
@@ -66,6 +70,8 @@ main {
 
 		h2 {
 			text-transform: uppercase;
+			font-size: 1em;
+			color: #4D4D4D;
 		}
 
 		.section-image {
@@ -73,6 +79,9 @@ main {
 			img {
 				height: 18.75em;
 				width: 28em;
+				float: left;
+				margin-right: 0.75em;
+				margin-bottom: 0.75em;
 			}
 		}
 	}
