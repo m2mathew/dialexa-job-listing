@@ -65,15 +65,20 @@ main {
 			margin-top: 0;
 			margin-bottom: 0;
 		}
-
 	}
 
 	.details {
+
+		.small-text {
+			color: #4D4D4D;
+			font-size: 1.1em;
+		}
 
 		h2 {
 			text-transform: uppercase;
 			font-size: 1em;
 			color: #4D4D4D;
+			margin-top: 1em;
 		}
 
 		.section-image {
