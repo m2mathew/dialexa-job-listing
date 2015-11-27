@@ -130,21 +130,31 @@ main {
 	padding-right: 0;
 }
 
-footer {
+#footer {
 	margin-top: 1.25em;
-	font-size: 0.75em;
+	margin-bottom: 3em;
+	font-size: 12px;
+	line-height: 18px;
 	color: #999;
+	vertical-align: baseline;
 
 	a {
-		color: #4D4D4D;
+		color: #999;
+		font-weight: bold;
+
+		&.left {
+			float: left;
+			margin: 0 -8em;
+			padding: 0;
+		}
 	}
 
-	.left {
-		float: right;
-	}
-
-	.right {
-		float: right;
+	p {
+		&.right {
+			float: right;
+			margin: 0 -8em;
+			padding: 0;
+		}
 	}
 }
 

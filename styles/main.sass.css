@@ -86,16 +86,24 @@ main {
   padding-left: 0;
   padding-right: 0; }
 
-footer {
+#footer {
   margin-top: 1.25em;
-  font-size: 0.75em;
-  color: #999; }
-  footer a {
-    color: #4D4D4D; }
-  footer .left {
-    float: right; }
-  footer .right {
-    float: right; }
+  margin-bottom: 3em;
+  font-size: 12px;
+  line-height: 18px;
+  color: #999;
+  vertical-align: baseline; }
+  #footer a {
+    color: #999;
+    font-weight: bold; }
+    #footer a.left {
+      float: left;
+      margin: 0 -8em;
+      padding: 0; }
+  #footer p.right {
+    float: right;
+    margin: 0 -8em;
+    padding: 0; }
 
 @media screen and (min-width: 68.75em) {
   main, footer {
